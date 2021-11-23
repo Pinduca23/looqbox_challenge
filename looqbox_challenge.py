@@ -5,10 +5,10 @@ import pandas as pd
 import queries
 
 cnx = mysql.connector.connect(
-    host='35.199.127.241',
+    host='XXXXXXXXX',
     user='looqbox-challenge',
-    password='looq-challenge',
-    database='looqbox_challenge'
+    password='XXXXXXXXXX',
+    database='XXXXXXXXX'
 )
 
 cursor = cnx.cursor()
